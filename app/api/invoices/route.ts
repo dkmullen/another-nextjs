@@ -8,7 +8,6 @@ async function listInvoices() {
     FROM invoices
     JOIN customers ON invoices.customer_id = customers.id;
   `;
-  console.log(Response.json(data));
   return data;
 }
 

@@ -1,4 +1,4 @@
-import { GET } from '@/app/api/query/route';
+import { GET } from '@/app/api/invoices/route';
 
 type Person = {
   amount: number;
